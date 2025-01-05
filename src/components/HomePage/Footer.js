@@ -1,5 +1,6 @@
 import GithubIcon from "images/social-media/github.svg";
 import TwitterIcon from "images/social-media/twitter.svg";
+import LinkedIcon from "images/social-media/linked-in.svg";
 
 const SocialMediaLink = ({ href, iconEl, ariaLabel }) => {
   return (
@@ -26,6 +27,11 @@ export const Footer = () => {
         href="https://x.com/NomadicPratik"
         iconEl={<TwitterIcon width="1.75rem" />}
         ariaLabel="My X Profile"
+      />
+      <SocialMediaLink
+        href="https://www.linkedin.com/in/sharmapratik/"
+        iconEl={<LinkedIcon width="1.75rem" />}
+        ariaLabel="My Linedin profile"
       />
     </footer>
   );
