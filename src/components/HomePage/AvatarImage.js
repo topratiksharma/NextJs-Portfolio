@@ -1,7 +1,7 @@
 "use-client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import avatarPic from "images/avatar-400x400.jpeg";
+import avatarPic from "images/pic.jpg";
 import Image from "next/image";
 
 const transitionState = {
