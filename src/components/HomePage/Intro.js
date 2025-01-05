@@ -45,9 +45,9 @@ export const Intro = () => {
           {...getAnimateProps({ delay: 0.9, shouldReduceMotion })}
           className="text-xl tracking-normal text-slate-700 dark:text-slate-300 font-medium"
         >
-          Software Developer.
+          Senior Software Developer
           <br></br>
-          React, NextJS, TypeScript, C#, Python.
+          React, NextJS, Angular, Javascript, TypeScript, C#, Python.
         </motion.p>
       </div>
     </main>
